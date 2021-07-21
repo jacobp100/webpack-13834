@@ -1,0 +1,13 @@
+{
+  "name": "share-scope",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn workspace main start & yarn workspace a start & yarn workspace b start"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
